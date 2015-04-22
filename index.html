@@ -30,26 +30,33 @@
 	<section class="destacados">
 		<h2>Destacados</h2>
 		<article class="articulo">
-			<figure>
+			<figure class="articulo__logofuente">
 				<img src="fuentelogo.jpg" alt="logo fuente no cargado">
 			</figure>
-			<figure>
+			<figure class="articulo__imagen">
 				<img src="fotoarticulo.jpg" alt="logo fuente no cargado">
 			</figure>
-			<h3>Título de Articulo</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus laudantium excepturi facere consequatur necessitatibus qui asperiores suscipit amet ex. Aut ipsam reiciendis fuga itaque pariatur amet ut optio laudantium illo.</p>
-			<p>Escrito por: 
-				<a href="#"><strong>Manuel Ávila
-				</strong></a>
+			<h3 class="articulo__titulo">
+				<a href="#">Título de Articulo</a>
+			</h3>
+			<p class="articulo__preview">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus laudantium excepturi facere consequatur necessitatibus qui asperiores suscipit amet ex. Aut ipsam reiciendis fuga itaque pariatur amet ut optio laudantium illo.
 			</p>
-			<a href="#" class="comentarios">1234</a>
-			<span>fecha</span>
-			<div class="votacion">
-				<a class="up" href="#">+</a> 
-				3141
-				<a class="down" href="#">-</a>
+			<div class="articulo__info">
+				Escrito por: 
+				<a href="#" class="info__autor">
+					<strong>Manuel Ávila</strong>
+				</a>
+				<a href="#" class="info__comentarios">1234</a>
+				<span class="info__fecha">hace 3 horas</span>
 			</div>
-			<div class="relevancia">Relevancia</div>
+			
+			<div class="articulo__votacion">
+				<a class="votacion__up" href="#">+</a> 
+				3141
+				<a class="votacion__down" href="#">-</a>
+			</div>
+			<div class="articulo__relevancia">Relevancia</div>
 		</article>
 	</section>
 	<footer class="footer__ppal">
