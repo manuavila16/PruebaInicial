@@ -1,8 +1,54 @@
 body{
-	background-color: #414149;
-}
-.header__ppal{
-	background-color: #97d3d2;
+	background: #414149;
 	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+header 
+{
+	background: #97d3d2;
+	color:black;
+	overflow: hidden;
+	padding: 0.5em;
 
 }
+	header figure
+	{
+		float:left;
+	}
+	header .logo img
+	{
+		width:70px;
+		border-radius: 50%
+	}
+	header h1
+	{
+		font-family: Courier;
+		font-size: 1.2em;
+		font-weight: normal;
+		margin: 0; 
+	}
+	header h3
+	{
+		font-family: Courier;
+		font-size: 0.7em;
+		font-style: italic;
+		
+	}
+	header .avatar img
+	{
+		width:60px;
+		border-radius: 50%;
+	}
+
+nav{
+	background: #511616;
+}
+	nav ul
+	{
+		list-style: none;
+	}
+
+	nav a
+	{
+		color:#94f0f6;
+	}
